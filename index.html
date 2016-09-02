@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>My Pomodoro timer</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container container-fluid">
+	  	<div class="row text-center">
+		    <div class="col col-lg-6">
+		      <h2>Break Length (Mins)<h2>
+		        <span><button class="decreaseBreak">-</button></span>
+		        <span class="breakValue"></span>
+		        <span><button class="increaseBreak">+</button></span>
+		    </div>
+		    <div class="col col-lg-6">
+		      <h2>Session Length (Mins)<h2>
+		        <span><button class="decreaseSession">-</button></span>
+		        <span class="sessionValue"></span>
+		        <span><button class="increaseSession">+</button></span>
+		    </div>
+  		</div>
+
+		<div class="row text-center">
+		    <div class="timerDiv">
+		        <h2><button class="startTimer">Click here to start</button></h2>
+		        <div class="timeRemaining"><h2 class="time">--:--</h2></div>
+		    </div>
+		</div>
+	</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment-with-locales.min.js'></script>
+<script src='https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js'></script>
+<script src="js/index.js"></script>    
+  </body>
+</html>
